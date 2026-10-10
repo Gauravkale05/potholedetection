@@ -1,0 +1,43 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ─── Virtual Environment ──────────────────────────────────
+venv/
+env/
+.venv/
+
+# ─── Dataset (too large for GitHub) ──────────────────────
+dataset/
+
+# ─── Trained Model (regenerate with: python src/train.py) ─
+models/
+
+# ─── Jupyter / IPython ────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Streamlit secrets ────────────────────────────────────
+.streamlit/secrets.toml
+
+# ─── Temp / scratch ───────────────────────────────────────
+scratch/
+*.log
+
+# Generated reports
+reports/
+
